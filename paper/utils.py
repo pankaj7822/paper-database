@@ -1,7 +1,6 @@
 import pandas as pd
 import os
 from paper.models import paper
-import concurrent.futures
 
 data = pd.read_csv("/home/pankaj/Documents/Paper-database/paperdatabase/paper/sorted_paper_data.csv")
 base_path = "/home/pankaj/allen_Kota_crawl/data"
