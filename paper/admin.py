@@ -14,6 +14,7 @@ class paperAdmin(admin.ModelAdmin):
         "testtype",
         "is_test_added",
         "is_solution_added",
+        "question_extracted"
     )
     list_display_links = ("id", "year","id_no")
     list_filter = ("pattern", "level", "language","testtype","is_test_added","is_solution_added","year")
