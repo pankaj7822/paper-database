@@ -18,3 +18,4 @@ class paper(models.Model):
     question_path = models.CharField(max_length = 250,null=True,blank=True)
     solution_path = models.CharField(max_length = 250,null=True,blank=True)
     question_extracted = models.BooleanField(default=False)
+    column = models.CharField(max_length=5,null=True,blank=True)
